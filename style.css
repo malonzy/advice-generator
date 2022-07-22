@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root{
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+}
+
+body{
+    background: var(--dark-blue);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Manrope, sans-serif;
+}
+
+button{
+    border: none;
+}
+
+@media(max-width: 576px){
+    .advice-container{
+        width: 70% !important;
+    }
+    .divider-desktop{
+        display: none !important;
+    }
+    .divider-mobile{
+        display: block !important;
+    }
+}
+
+.divider-desktop{
+    display: inline-block;
+}
+.divider-mobile{
+    display: none ;
+}
+
+.advice-container{
+    width: 30%;
+    background: var(--dark-grayish);
+    padding: 35px 35px 10px 35px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 20px;
+    box-shadow: 0 20px 30px rgba(23, 31, 35, 0.89);
+}
+
+.advice{
+    color: var(--light-cyan);
+    font-size: 28px;
+}
+
+.advice-counter{
+    color: var(--neon-green);
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+.dice-btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--neon-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: -40px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.dice-btn:hover{
+    box-shadow: 0 0 30px var(--neon-green);
+}
+
+.dice-btn:active{
+    transform: scale(0.95);
+    box-shadow: 0 0 25px var(--neon-green);
+}
