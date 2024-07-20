@@ -1,6 +1,6 @@
 ### HELLO THERE  👋
 
-Thanks for passing by. My name is Mark, and I am primarily a frontend developer, with a bit of backend physique.
+Thanks for passing by. My name is Mark, and I am a frontend developer, with a of backend physique. I build stuff for web and mobile.
 
 This project is my solution for a challenge on Frontend Mentor.
 
